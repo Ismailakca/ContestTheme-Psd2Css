@@ -1,0 +1,72 @@
+#top-banner{
+    height: 150px;
+    background: url(../img/main-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+    .wrapper{
+        background: rgba(237,237,237,.7);
+        height: 150px;
+        .container{
+           .top-text{
+               width: 200px;
+               margin: 0 auto;
+               
+                .top-title{
+                    font-size: 20px;
+                    color: #424242;
+                    padding-top: 40px;
+                }
+                .top-paragraf{
+                    font-size: 14px;
+                    color: #424242;
+                    margin-top:20px;
+                    padding-bottom: 25px;
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+}
+.image-404{
+    margin: 0 auto;
+    width: 450px;
+    height: 365px;
+    padding-top: 10px;
+}
+.title-404{
+    font-size: 28px;
+    color:#424242;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.paragraf-404{
+    font-size: 14px;
+    color: #8c8c8c;
+    padding-top: 30px;
+}
+.form-404{
+    margin-bottom: 150px;
+    padding-top: 40px;
+    .input-404{
+        width: 600px;
+        height: 50px;
+        border: 1px solid #e5e5e5;
+        &::placeholder{
+            font-size: 14px;
+            line-height: 50px;
+            padding-left: 10px;
+            color:#8c8c8c;
+        }
+    }
+    .buton-404{
+        height: 50px;
+        background-color: #f13b3b;
+        width: 160px;
+        border: 1px solid #8c8c8c;
+        margin-left: -5px;
+        border-radius: 0;
+        
+    }
+}
